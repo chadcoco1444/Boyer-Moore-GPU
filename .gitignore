@@ -1,0 +1,9 @@
+*.o
+*.out
+*.json
+*.DS_Store
+build/*
+source128MB.txt
+source256MB.txt
+source512MB.txt
+__boyerMoore.c

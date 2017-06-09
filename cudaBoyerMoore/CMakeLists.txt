@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.0)
+project(GPU_boyerMoore)
+set(CUDA_64_BIT_DEVICE_CODE ON)
+find_package(CUDA REQUIRED)
+cuda_add_executable (GPU_boyerMoore main.cu)
